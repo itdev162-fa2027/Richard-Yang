@@ -1,0 +1,276 @@
+{
+  "format": 1,
+  "restore": {
+    "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\API\\API.csproj": {}
+  },
+  "projects": {
+    "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\API\\API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\API\\API.csproj",
+        "projectName": "API",
+        "projectPath": "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Yato\\.nuget\\packages\\",
+        "outputPath": "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yato\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Application\\Application.csproj": {
+                "projectPath": "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Yato\\.nuget\\packages\\",
+        "outputPath": "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yato\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Domain\\Domain.csproj": {
+                "projectPath": "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Domain\\Domain.csproj"
+              },
+              "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Persistence\\Persistence.csproj": {
+                "projectPath": "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Persistence\\Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Yato\\.nuget\\packages\\",
+        "outputPath": "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yato\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Persistence\\Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Persistence\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\Yato\\.nuget\\packages\\",
+        "outputPath": "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yato\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Domain\\Domain.csproj": {
+                "projectPath": "B:\\1DOCUMENTS\\.Fall2026\\ITDEV162\\Richard-Yang\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
